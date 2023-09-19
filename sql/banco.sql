@@ -1,0 +1,9 @@
+CREATE DATABASE discoteca;
+
+USE discoteca;
+
+CREATE TABLE musicas (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(55) NOT NULL,
+    ano YEAR NOT NULL
+);

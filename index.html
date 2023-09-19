@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova IWD</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Sistema de Cadastro de Músicas</h1>
+    </header>
+    <nav class="nav">
+        <a href="#Cadastro">Cadastrar Música</a>
+        <a href="http://localhost:5000/listar.php">Listar Músicas</a>
+    </nav>
+    <div class="cadastro">
+        <div>
+            <h1>Cadastrar Músicas</h3><br>
+            <form action="http://localhost:5000/cadastrar.php" method="post">
+                <input type="text" name="nome" placeholder="Nome da música"><br>
+                <input type="number" name="ano" placeholder="Ano de lançamento"><br><br>
+                <input type="submit" value="Cadastrar">
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <h4>Desenvolvido por Pedro Betti</h4>
+    </footer>
+</body>
+</html>
